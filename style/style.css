@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.over-pass-font{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.brand-name{
+    color: rgba(230, 83, 60, 1);
+    font-size: 2rem;
+    font-style: italic;
+}
+/* navbar style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.nav-linkes{
+    display: flex;
+    gap: 25px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.nav-item{
+    list-style: none;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.bg-color{
+    background-color: rgba(17, 17, 17, 1);
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    max-height: 715px;
+}
+
+/* banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 4.75rem;
+    max-width: px;
+    max-height: 281px;
+}
+
+.banner-discription{
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.banner-content{
+    max-width: 600px;
+    max-height: 440px;
+}
+
+.banner-font-style{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.btn-join-clun{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 16px 40px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.btn-download{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 16px 40px;
+    font-size: 1.2rem;
+    background-color: black;
+    color:rgba(255, 255, 255, 1) ;
+}
+
+.banner-discription{
+    font-size: 1.2rem;
+}
+
+.banner-image{
+    margin-left: 88px;
+    margin-top: 32px;
+}
