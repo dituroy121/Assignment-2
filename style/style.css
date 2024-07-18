@@ -20,15 +20,23 @@
     margin-right: 190px;
 }
 
+.home{
+    border: 1px solid ;
+    background-color: rgba(230, 83, 60, 1) ;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+
 .nav-linkes{
     display: flex;
     gap: 25px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 15px;
 }
 
 .nav-item{
     list-style: none;
+    padding: 20px;
     
 }
 
@@ -94,6 +102,7 @@
     font-size: 1.2rem;
     background-color: black;
     color:rgba(255, 255, 255, 1) ;
+    margin-left: 14px;
 }
 
 .banner-discription{
@@ -103,4 +112,94 @@
 .banner-image{
     margin-left: 88px;
     margin-top: 32px;
+}
+
+/* habits */
+.habits-continers{
+
+}
+
+.habits-contine{
+    max-width: 671px;
+    max-height: 120px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.habits-contine-item{
+    /* column-gap: 58px; */
+}
+.habits-contine1{
+    max-width: 231px;
+    max-height: 274px;
+    /* border: 1px solid red; */
+}
+
+.habits-contine1-image1{
+    border-radius: 100px;
+    margin-left: 25px;
+}
+.habits-contine-title{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1) ;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.habits-contine-discription{
+    color: rgba(255, 255, 255, 1) ;
+    font-size: 14px;
+    text-align: center;
+}
+.habits-contine2{
+    max-width: 231px;
+    max-height: 274px;
+    /* border: 1px solid red; */
+}
+
+.habits-contine1-image2{
+    border-radius: 100px;
+    margin-left: 25px;    
+}
+
+.habits-contine3{
+    max-width: 231px;
+    max-height: 274px;
+    /* border: 1px solid red; */
+}
+
+.habits-contine1-image3{
+    border-radius: 100px;
+    margin-left: 25px;
+}
+
+.habits-contine4{
+    max-width: 231px;
+    max-height: 274px;
+    /* border: 1px solid red; */
+}
+
+.habits-contine1-image4{
+    border-radius: 100px;
+    margin-left: 25px;
+}
+
+.habits-contine-item{
+    display: flex;
+    max-width: 1044px;
+    max-height: 274px;
+    margin: 0 auto;
+    gap: 40px;
+    margin-top: 130px;
+}
+
+.habits-title{
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.habits-discription{
+    color: rgba(255, 255, 255, 0.5);
 }
