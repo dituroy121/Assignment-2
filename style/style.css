@@ -116,21 +116,23 @@
 
 /* habits */
 .habits-continers{
+    /* max-width: 1440px; */
+    /* max-height: 452px; */
+    /* border: 1px solid red; */
+    margin: 0 auto;
 
+    
 }
 
 .habits-contine{
     max-width: 671px;
-    max-height: 120px;
-    border: 1px solid black;
+    /* max-height: 120px; */
+    /* border: 1px solid rgb(255, 0, 0); */
     margin: 0 auto;
     text-align: center;
 
 }
 
-.habits-contine-item{
-    /* column-gap: 58px; */
-}
 .habits-contine1{
     max-width: 231px;
     max-height: 274px;
@@ -149,13 +151,13 @@
 }
 
 .habits-contine-discription{
-    color: rgba(255, 255, 255, 1) ;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     text-align: center;
 }
 .habits-contine2{
-    max-width: 231px;
-    max-height: 274px;
+    /* max-width: 231px;
+    max-height: 274px; */
     /* border: 1px solid red; */
 }
 
@@ -165,8 +167,8 @@
 }
 
 .habits-contine3{
-    max-width: 231px;
-    max-height: 274px;
+    /* max-width: 231px;
+    max-height: 274px; */
     /* border: 1px solid red; */
 }
 
@@ -176,8 +178,8 @@
 }
 
 .habits-contine4{
-    max-width: 231px;
-    max-height: 274px;
+    /* max-width: 231px;
+    max-height: 274px; */
     /* border: 1px solid red; */
 }
 
@@ -188,8 +190,8 @@
 
 .habits-contine-item{
     display: flex;
-    max-width: 1044px;
-    max-height: 274px;
+    max-width: 1060px;
+    /* max-height: 452px; */
     margin: 0 auto;
     gap: 40px;
     margin-top: 130px;
@@ -203,3 +205,93 @@
 .habits-discription{
     color: rgba(255, 255, 255, 0.5);
 }
+
+.run-extra-content{
+    display: flex;
+}
+
+.run-extra-content{
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: rgb(34,34,34);
+    border-radius: 15px;
+}
+
+.run-extra-title{
+    color:rgba(255, 255, 255, 1);
+    font-size: 3rem;
+}
+
+.run-extra-discription{
+    font-size: 1rem;
+    margin-top: 14PX;
+}
+
+.run-extra-contener{
+    max-width: 443px;
+    /* max-height: 200px; */
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 54px;
+}
+
+.run-extra-btn{
+    background: rgba(230, 83, 60, 1);
+    color:rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    padding: 16px 71px;
+    font-size: 1.1rem;
+}
+
+.run-extra-iamge{
+    max-width: 366px;
+    max-height: 312px;
+    border-radius: 15px;
+    object-fit:none;
+    object-position: 66% 33%;
+    margin-right: 32px;
+    margin-top: 30px;
+    margin-left:165px;
+}
+
+.footer-sec{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1060px;
+    gap: 102px;
+}
+
+.footer-brand-discription{
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.footer-content{
+    max-width: 443px;
+    max-height: 156px;
+
+}
+
+.footer-contener{
+    color:rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 152px;
+}
+
+.footer-itam{
+   list-style: none;
+   text-decoration: none;
+   color:rgba(255, 255, 255, 1);
+}
+
+.footer-link{
+    list-style: none;
+   text-decoration: none;
+   color:rgba(255, 255, 255, 1);
+}
+
+.footer-content-1{
+    color:rgba(255, 255, 255, 1);
+}
+.footer-content-2{
+    color:rgba(255, 255, 255, 1);
