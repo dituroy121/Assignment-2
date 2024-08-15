@@ -205,3 +205,42 @@
 .habits-discription{
     color: rgba(255, 255, 255, 0.5);
 }
+
+.run-extra-content{
+    justify-content: space-between;
+    max-width: 1370px;
+    margin: 0 auto;
+    background-color: rgb(34,34,34);
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.run-extra-title{
+    color:rgba(255, 255, 255, 1);
+    font-size: 3rem;
+}
+
+.run-extra-discription{
+    font-size: 1rem;
+    margin-top: 14PX;
+}
+
+.run-extra-contener{
+    max-width: 443px;
+    /* max-height: 200px; */
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 54px;
+}
+
+.run-extra-iamge{
+    max-width: 366px;
+    max-height: 312px;
+    border-radius: 15px;
+    object-fit:none;
+    object-position: 68% 30%;
+    margin-right: 32px;
+    margin-top: 30px;
+    margin-left:165px;
+}
