@@ -246,11 +246,119 @@
 }
 
 
+
+
+
+
+
+.team-content{
+    max-width: 671px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.team-images{
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 1060px;
+    height: 604px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.team-image{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    border-radius: 1px;
+}
+
+.team-contant-image{
+    width: 326px;
+    height: 272px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.bmi-calculatorr-container{
+    max-width: 1370px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.bmi-container{
+    max-width: 671px;
+    max-height: 119px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.bmi-chat{
+    margin-bottom:50px;
+    margin-top: 49px;
+}
+.bmi-title{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 14px;
+
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.50);
+    margin-bottom: 88px;
+}
+.bmi-calculator-chart{
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 52px;
+}
+table{
+    max-height: 216px;
+    max-width: 350px;
+    border: 2px solid yellow;
+    border-collapse: collapse;
+}
+ th, td{
+    border: 2px solid white;
+    padding: 10px 20px;
+ }
+ .bmi-calculate{
+    max-width: 577px;
+    max-height: 386px;
+    margin-bottom:50px;
+    margin-top: 49px;
+ }
+ .sex{
+    height: 48px;
+    width: 245px;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.60);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 12px;
+ }
+ .select{
+    height: 48px;
+    width: 555px;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.60);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 12px;
+ }
+ input, select{
+    color: white;
+}
+
 .footer-sec{
     display: flex;
     max-width: 1060px;
     gap: 102px;
     margin: 0 auto;
+    margin-left:
 }
 
 .footer-ff{
@@ -264,7 +372,7 @@
 }
 
 .footer-brand-discription{
-    color: #afa2a2;
+    color: rgba(255, 255, 255, 0.5);;
 }
 .footer-sec{
 align-items: center;
@@ -279,7 +387,7 @@ margin-left: 102px;
     margin-left: 152px;
 }
 .footer-tittle{
-    color: #FFFFFF;
+    color:rgba(255, 255, 255, 0.5);
     font-weight: 800px;
     font-size: 2rem;
 }
@@ -289,7 +397,7 @@ margin-left: 102px;
 }
 .footer-link{
     text-decoration: none;
-    color: #afa2a2;
+    color: rgba(255, 255, 255, 0.5);
    font-weight: 400px;
    font-size: 1.43rem;
 }
