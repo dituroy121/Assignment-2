@@ -244,3 +244,56 @@
     margin-top: 30px;
     margin-left:165px;
 }
+
+
+.footer-sec{
+    display: flex;
+    max-width: 1060px;
+    gap: 102px;
+    margin: 0 auto;
+}
+
+.footer-ff{
+    max-width: 1370px;
+    margin: 0 auto;
+}
+.brand-name{
+    color: #E6533C;
+    font-weight: 900;
+    font-size: 4.356rem;
+}
+
+.footer-brand-discription{
+    color: #afa2a2;
+}
+.footer-sec{
+align-items: center;
+justify-content: space-between;
+margin-left: 102px;
+}
+.footer-contener{
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content-1{
+    margin-left: 152px;
+}
+.footer-tittle{
+    color: #FFFFFF;
+    font-weight: 800px;
+    font-size: 2rem;
+}
+.footer-links{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-link{
+    text-decoration: none;
+    color: #afa2a2;
+   font-weight: 400px;
+   font-size: 1.43rem;
+}
+.copyright{
+    font-size: 1.4rem;
+    text-align: center;
+}
